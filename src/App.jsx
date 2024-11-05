@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import TimeBasedBackground from './Components/background-image';
 import './App.css'
 import {
   signature,
@@ -105,11 +106,14 @@ function App() {
   
   return (
     <div>
+         <TimeBasedBackground />
     <div className='card'>
      
          <h1 className='card__title'>Weather App</h1>
          <h2 className='card__subtitle'>{weather.city}, {weather.country}</h2>
     
+
+
     <div className='card__body'>
            <img src={weather.incon} alt={weather.main} width={150}/>
        <div className="card__info">
@@ -119,6 +123,9 @@ function App() {
         <p className='card__pressure'>Pressure {weather.pressure}hPa</p>
 
        </div>
+    
+
+
     
   
     </div>
