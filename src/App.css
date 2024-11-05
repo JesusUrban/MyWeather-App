@@ -1,0 +1,68 @@
+#root{
+    min-height: 100vh;
+    height: 100%;
+
+    background-image: url('/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+   /* remember to remove the  red border  */
+border: 2px solid rgba(255, 255, 255, 0.863);
+max-width: 400px;
+width: 100%;
+padding-top: 2em ;
+padding-left: 1.5em;
+padding-right: 1.5em;
+
+background-color: #ffffff10;
+
+
+-webkit-backdrop-filter: brightness(1) blur(3px);
+
+backdrop-filter: brightness(1) blur(5px);
+border-radius: 1.5em;
+
+box-shadow: 0 0 25px 0 #00000040;
+
+}
+.card__title, .card__subtitle{
+  text-align: center;
+}
+.card__subtitle{
+    margin-bottom: 10px;
+}
+
+.card__body{
+   display: flex;
+}
+
+.card__temperature{
+    font-size:2.5rem ;
+    text-align: center;
+    margin-bottom: .5em;
+}
+.card__main{
+    margin-bottom: .3em;
+}
+.card__button{
+ display: block;
+ margin: auto;
+ background-color: #00000011;
+
+ -webkit-backdrop-filter: brightness(1) blur(3px);
+ backdrop-filter: brightness(1) blur(5px);
+
+}
+
+
+.Signature__logo{
+   /* background-color: red; */
+   margin-left: 75%;
+
+}
