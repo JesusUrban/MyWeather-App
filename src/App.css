@@ -2,7 +2,7 @@
     min-height: 100vh;
     height: 100%;
 
-    background-image: url('/bg.jpg');
+    /* I change this part because I used another image that change with the time */
     background-repeat: no-repeat;
     background-size: cover;
 
